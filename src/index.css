@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "satoshi";
+    src: url('./assets/fonts/Satoshi-Medium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "satoshiBold";
+    src: url('./assets/fonts/Satoshi-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.dark {
+    background-color: #060125;
+    color: #fff;
+    
+    border-radius:20px;
+    /* background-image: url('/src/assets/bg.png');
+  background-size: cover;
+  background-position: center; */
+}
+.dark .dark-bg {
+  background-image: url('/src/assets/bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+  
+  body {
+    background: var(--body-bg);
+    color: var(--body-txt);
+  }
+  .dark .text-jurident-dark {
+    color: green !important;
+  } 
+  .custom-black-text {
+    color: black !important;
+  }
+  
